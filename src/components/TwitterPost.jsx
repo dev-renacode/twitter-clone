@@ -41,10 +41,10 @@ const TwitterPost = ({userName, nameTag, text, verified}) => {
         <footer>
             <hr className="border-[#71767b]/50" />
             <div className="flex justify-between text-[#71767b] text-[13px] py-2 px-2">
-                <button className="flex gap-2"><RiChat1Line className="w-5 h-5"/> 18K</button>
-                <button className="flex gap-2"><AiOutlineRetweet className="w-5 h-5"/> 15K</button>
-                <button className="flex gap-2"><FaRegHeart className="w-5 h-5"/>241K</button>
-                <button className="flex gap-2"><FaRegBookmark className="w-5 h-5"/> 5K</button>
+                <button className="flex items-center gap-2 hover:text-[#F91880] group"><RiChat1Line className="group-hover:bg-[#200914] w-8 h-8 rounded-full p-1"/> 18K</button>
+                <button className="flex items-center gap-2 hover:text-[#F91880] group"><AiOutlineRetweet className="group-hover:bg-[#200914] w-8 h-8 rounded-full p-1"/> 15K</button>
+                <button className="flex items-center gap-2 hover:text-[#F91880] group"><FaRegHeart className="group-hover:bg-[#200914] w-8 h-8 rounded-full p-1"/>241K</button>
+                <button className="flex items-center gap-2 hover:text-[#F91880] group"><FaRegBookmark className="group-hover:bg-[#200914] w-8 h-8 rounded-full p-1"/> 5K</button>
             </div>
             <hr className="border-[#71767b]/50"/>
         </footer>
