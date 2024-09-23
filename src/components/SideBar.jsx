@@ -24,7 +24,7 @@ const SideBar = ( {userName, nameTag} ) => {
   const iconsClasses = "w-8 h-8 text-white"
   const profileImageUrl = `https://unavatar.io/${nameTag}`
   return (
-    <header className="fixed w-full bg-black max-w-xs h-screen flex flex-col justify-between p-4">
+    <header className="fixed w-full bg-black max-w-xs h-screen flex flex-col justify-between p-4 max-sm:hidden">
         <nav className="flex flex-col text-[20px] gap-2">
             <FaXTwitter className="w-10 h-10 text-white" />
             <Anchor href="https://youtube.com">

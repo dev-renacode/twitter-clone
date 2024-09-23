@@ -51,5 +51,4 @@ const TwitterPost = ({userName, nameTag, text, verified}) => {
     </section>
   )
 }
-
 export default TwitterPost
